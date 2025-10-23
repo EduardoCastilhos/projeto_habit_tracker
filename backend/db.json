@@ -1,0 +1,73 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Antonio",
+            "email": "a@exemplo.com",
+            "avatar": "",
+            "points": 120,
+            "streak": 3,
+            "badges": [
+                "bronze_first_3"
+            ]
+        }
+    ],
+    "habits": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Ler 30 minutos",
+            "description": "Ler antes de dormir",
+            "frequency": "daily",
+            "difficulty": "medium",
+            "createdAt": "2025-10-01T10:00:00.000Z",
+            "completedCount": 5,
+            "currentStreak": 3,
+            "lastCompletedAt": "2025-10-08T22:00:00.000Z"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Meditar 10 minutos",
+            "description": "Meditação matinal",
+            "frequency": "daily",
+            "difficulty": "easy",
+            "createdAt": "2025-09-20T08:00:00.000Z",
+            "completedCount": 12,
+            "currentStreak": 5,
+            "lastCompletedAt": "2025-10-08T07:00:00.000Z"
+        }
+    ],
+    "completions": [
+        {
+            "id": 1,
+            "habitId": 1,
+            "userId": 1,
+            "completedAt": "2025-10-08T22:00:00.000Z",
+            "pointsEarned": 10
+        }
+    ],
+    "badgesCatalog": [
+        {
+            "id": "bronze_first_3",
+            "title": "Bronze — Primeiro trio",
+            "description": "Complete 3 dias consecutivos de um hábito",
+            "icon": "🏅",
+            "points": 20
+        },
+        {
+            "id": "silver_week_master",
+            "title": "Silver — Semana Consistente",
+            "description": "Complete 7 dias seguidos de um hábito",
+            "icon": "🥈",
+            "points": 50
+        },
+        {
+            "id": "gold_month_master",
+            "title": "Gold — Mês de Ouro",
+            "description": "Complete 30 dias seguidos de um hábito",
+            "icon": "🥇",
+            "points": 200
+        }
+    ]
+}

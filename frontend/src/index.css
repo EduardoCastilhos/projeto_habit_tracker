@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* pequenas utilitárias para animações suaves */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 350ms, transform 350ms;
+}
+
+/* botão de concluir com efeito de pulso */
+.btn-pulse:active {
+  transform: scale(0.98);
+}
